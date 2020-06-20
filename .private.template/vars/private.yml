@@ -1,9 +1,9 @@
-ldap_host: example.com
-ldap_dc: dc=example,dc=com
-ldap_password: yourLdapSecretPassword 
+ldap_host: ansible.com
+ldap_dc: dc=ansible,dc=com
+ldap_password: AnsibleLdapSecretPassword
 ldap_password_size: 22  # The length ldap_password
-ldap_automount_machine: nfs.example.com
-ldap_server: ldap://ldap.example.com
+ldap_automount_machine: nfs.ansible.com
+ldap_server: ldap://ldap.ansible.com
 ldap_g_suffix: ou=Groups
 ldap_u_suffix: ou=Users
 ldap_m_suffix: ou=Machines
